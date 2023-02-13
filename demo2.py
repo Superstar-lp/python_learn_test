@@ -1,8 +1,8 @@
-if(0.3 == 0.1 +0.2):
-    print('yes');
-else:
-    print('no');
-
+#if(0.3 == 0.1 +0.2):
+#   print('yes');
+#else:
+#    print('no');
+#
 import decimal
 
 a = decimal.Decimal('0.1')
