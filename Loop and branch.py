@@ -34,4 +34,15 @@
 #          print("请输入正确的数值！") )
 # print(level)
 
-###Loop and branch 3
+###Loop and branch 3   python代码要严格对齐qaq
+# life ="yes"
+# while life == "yes":
+#     life = input("今天你还活着嘛？")
+
+# while True:
+#     answer = input ("你要推出循环吗？")
+#     if answer == "可以！":
+#             break
+#     print("好累")
+
+    ###Loop and branch 3
