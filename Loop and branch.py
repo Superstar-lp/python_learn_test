@@ -20,4 +20,18 @@
 #     print("S")
 # else:
 #     print("请输入0~100的分值！")
+
 ###Loop and branch 2
+# age = 16
+# print("抱歉，未满18岁禁止访问") if age < 18 else print("欢迎您来")
+
+# score = 66
+# level = ('d' if 0<= score <60 else
+#          'c' if 60 <= score< 80 else 
+#          'b' if 80 <= score< 90 else 
+#          'a' if 90 <= score< 100 else 
+#          's' if score== 100     else
+#          print("请输入正确的数值！") )
+# print(level)
+
+###Loop and branch 3
