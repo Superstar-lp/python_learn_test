@@ -2,7 +2,7 @@
 #   print('yes');
 #else:
 #    print('no');
-#
+
 import decimal
 
 a = decimal.Decimal('0.1')
