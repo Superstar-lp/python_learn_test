@@ -45,4 +45,47 @@
 #             break
 #     print("好累")
 
-    ###Loop and branch 3
+    ###Loop and branch 4
+##continue 跳出本轮循环
+# i = 1
+# while i < 5:
+#     print("循环内i的值是",i)
+#     i += 1
+# else:
+#     print("循环外，i的值是",i)
+
+# i = 1
+# while i < 5:
+#     print("循环内i的值是",i)
+#     i += 1
+# print("循环外，i的值是",i)
+
+# i = 1
+# while i < 5:
+#     print("循环内i的值是",i)
+#     if i == 2:
+#          break
+#     i += 1
+# else:
+#     print("循环外，i的值是",i)
+## while  break else 的应用，只有完整把while走完才会使用else，如果中间break了，那么就不会执行else！
+# day =1
+# while day <= 7:
+#     answer = input("今天又好好学习嘛？")
+#     if answer != "有":
+#         break
+#     day += 1
+# else:
+#     print("非常好，你已经坚持学习了7天学习！")
+
+## 9*9乘法表
+# i = 1
+# while i<=9:
+#     j = 1
+#     while j<= i:
+#         print(j,"*",i,"=",j*i,end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+### break 每次只跳出一层循环体  
