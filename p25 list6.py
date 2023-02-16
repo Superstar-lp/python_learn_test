@@ -26,9 +26,12 @@
 # code = [ord(c) for c in "fishC"] #oed是输出单个字符串相应的代码
 # print(code)
 
-# matrix = [[1,2,3],[4,5,6],[7,8,9]]
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
 # col2 = [row[1] for row in matrix]
 # print(col2)
 
-# diag = [matrix [i][i] for i in range(len(matrix))]
-# print(diag)
+diag = [matrix [i][i] for i in range(len(matrix))]
+print(diag)
+
+diag2 = [matrix[i][2-i] for i in range(len(matrix))]
+print(diag2)
