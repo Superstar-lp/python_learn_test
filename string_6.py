@@ -19,15 +19,27 @@
 # print("{:#d}".format(80))
 
 
-print("{:e}".format(3.1415))
-print("{:E}".format(3.1415))
-print("{:f}".format(3.1415))
-print("{:g}".format(123456789))
-print("{:g}".format(1234.56789))
-print("{:%}".format(0.98))
-print("{:.2%}".format(0.98))
-print("{:.{prec}f}".format(3.1315,prec =2))
+# print("{:e}".format(3.1415))
+# print("{:E}".format(3.1415))
+# print("{:f}".format(3.1415))
+# print("{:g}".format(123456789))
+# print("{:g}".format(1234.56789))
+# print("{:%}".format(0.98))
+# print("{:.2%}".format(0.98))
+# print("{:.{prec}f}".format(3.1315,prec =2))
 
-print("{:{fill}{align}{width}.{prec}{ty}}".format(3.1415,fill = '+',align = '^',width = 10,prec = 3,ty = 'g'))
+# print("{:{fill}{align}{width}.{prec}{ty}}".format(3.1415,fill = '+',align = '^',width = 10,prec = 3,ty = 'g'))
 
 ### f-string
+year =2010
+print(F"鱼C成立在{year}")
+print(f"1 + 2 ={1+2},2的平方是{2*2}")
+print(f"{-520:010}")
+print(f"{1234124523425:,}")
+print(f"{3.1415:.2f}")
+fill = '+'
+align = '^'
+width = 10
+prec = 3
+ty = 'g'
+print(f"{3.1415:{fill}{align}{width}.{prec}{ty}}")
